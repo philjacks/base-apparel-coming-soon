@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="icon"
       type="image/png"
@@ -15,10 +15,36 @@
     <title>Base Apparel coming soon page</title>
   </head>
   <body>
-    We're coming soon Hello fellow shoppers! We're currently building our new
-    fashion store. Add your email below to stay up-to-date with announcements
-    and our launch deals. Email Address
+    <div class="container">
+      <div class="content">
+        <img id="logo" src="img/logo.svg" alt="" />
 
-    <footer></footer>
+        <h1>
+          We're<br />
+          <span
+            >coming<br />
+            soon</span
+          >
+        </h1>
+
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <div id="email">
+          <input type="email" placeholder="    Email Address" />
+          <button>
+            <img src="../img/icon-arrow.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="img">
+      <img id="hero" src="img/hero-desktop.jpg" alt="" />
+    </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
