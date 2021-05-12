@@ -73,6 +73,12 @@ input {
   border: 1px solid rgba(206, 151, 151, 0.4);
   border-radius: 50px;
   width: 70%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  padding-left: 1.8rem;
+}
+input:focus {
+  border: none;
 }
 input::placeholder {
   color: hsl(0, 36%, 70%);
@@ -97,6 +103,12 @@ button:hover {
   );
   background-color: hsl(0, 93%, 68%);
   background-blend-mode: overlay;
+}
+.invalid {
+  border: 2px solid hsl(0, 93%, 68%);
+  background-image: url("../img/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: right 6rem bottom 1rem;
 }
 
 @media screen and (max-width: 1170px) {
