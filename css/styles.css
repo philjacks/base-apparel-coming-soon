@@ -78,7 +78,7 @@ input {
   padding-left: 1.8rem;
 }
 input:focus {
-  border: none;
+  outline: none;
 }
 input::placeholder {
   color: hsl(0, 36%, 70%);
