@@ -115,19 +115,18 @@ button:hover {
   background-position: right 6rem bottom 1rem;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1240px) {
   #hero {
     display: none;
   }
   #hero-mobile {
     display: block;
-    width: 100%;
     margin-top: -2rem;
   }
   .container {
     background-image: none;
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     text-align: center;
   }
   .content {
@@ -141,19 +140,19 @@ button:hover {
     align-self: flex-start;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0rem 0 -1rem;
   }
   p {
-    max-width: 70%;
     margin-bottom: 0;
   }
   #email {
     justify-content: center;
+    width: 100%;
     margin-top: -1rem;
   }
   input {
-    width: 60%;
+    width: 90%;
     min-width: 300px;
   }
   button {
